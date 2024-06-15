@@ -8,7 +8,8 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
         port: "",
         output: "export",  // <=== enables static exports
-   reactStrictMode: true,
+        reactStrictMode: true,
+         basePath: "/labfox",
       },
     ],
   },
