@@ -1,0 +1,27 @@
+.pricing-svg {
+  animation: svg-appear 1.5s 1s forwards;
+  opacity: 0;
+}
+
+.pricing-svg-child {
+  animation: svg-child-appear 1.5s 1.5s forwards;
+  opacity: 0;
+}
+
+@keyframes svg-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
+
+@keyframes svg-child-appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
