@@ -30,3 +30,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+yarn.lock
+github/workflows/publish.yml
